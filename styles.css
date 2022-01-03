@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(185, 204, 185);
+    color: rgb(207, 194, 121);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td {
+    color: bisque;
+}
+
+th {
+    color: darkkhaki;
+}
+
+hr {
+    width: 830px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+.CV {
+    color: rgb(112, 110, 76);
+    text-align: center;
+    margin: 40px;
+}
+
+.avatar {
+    width: 210px;
+    border-radius: 48px;
+}
+
+.info {
+    color: black;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 10px;
+    columns: 2;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(80, 76, 74);
+    border-right: 13px rgb(184, 177, 88);
+    border-style: ridge;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
